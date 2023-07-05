@@ -1,0 +1,7 @@
+*.env
+bin/
+lib/
+*.sqlite3
+todo.txt
+chart.drawio
+try.py

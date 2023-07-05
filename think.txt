@@ -1,0 +1,26 @@
+
+the problem of the space in the db might be solved by automating the sending to another platform ---> google drive maybe or anything else
+  i just need to find a way to connect it to the db
+ as a backup solution if something went wrong
+
+its important to add the functionalty of adding morre products to the menu 
+
+means i need 2 db tables one for posting the products
+                                 and one as a form when clients order the products
+
+
+start with the landing page ... maybe bring what i have and tweek it 
+after that code a function for the items ... make a template . and make sure to see if you can add a posting functionality 
+
+moving to the order page  i need to create a form ..table ---> name .. numberphone .. quantity .. adress ....and need to find a way to add the item name without making the user writing it
+
+---------------------------------------- delevery info   --------------------------------------
+product id ------ 
+quantity  ------ integerfield
+name of the store
+location of the store
+name 
+phone number
+
+
+for popcorn i gues
