@@ -18,7 +18,7 @@ SECRET_KEY = config('secret_key')
 
 DEBUG = config('debug')
 
-ALLOWED_HOSTS = ['.vercel.app' , '127.0.0.1']
+ALLOWED_HOSTS = [config("pc")  , config("vercel")]
 
 
 # Application definition
@@ -96,13 +96,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'URL': 'postgres://hzlmrxtb:Kk45bj0e6TNFDPzY4-BeseuaI8G-bbnc@rogue.db.elephantsql.com/hzlmrxtb' ,
-        'NAME': 'hzlmrxtb',
-        'USER': 'hzlmrxtb',
-        'PASSWORD': 'Kk45bj0e6TNFDPzY4-BeseuaI8G-bbnc' ,
-        'HOST':'rogue.db.elephantsql.com' ,
-        'PORT': 5432 ,
+        'ENGINE': config('engine'),
+        'URL': config('url') ,
+        'NAME': config('name'),
+        'USER': config('user'),
+        'PASSWORD': config('password') ,
+        'HOST':config('host'),
+        'PORT':  config(port),
     }
 }
 # Internationalization
