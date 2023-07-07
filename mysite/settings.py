@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.sites',
     'django.contrib.flatpages',
-    # 'whitenoise.runserver_nostatic',# using whitenoise to serve the static files when debug is set to false 
+    'whitenoise.runserver_nostatic',# using 'whitenoise.runserver_nostatic',# using whitenoise to serve the static files when debug is set to false 
     'django.contrib.staticfiles',
     'order',
    
